@@ -23,7 +23,7 @@
 
         eq {
             bindings = <&kp EQUAL>;
-            key-positions = <11 10>;
+            key-positions = <9 10>;
         };
 
         atm {
