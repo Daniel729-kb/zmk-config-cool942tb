@@ -33,7 +33,7 @@
 
         capsl {
             bindings = <&kp CAPS>;
-            key-positions = <14 15>;
+            key-positions = <13 25>;
         };
     };
 
