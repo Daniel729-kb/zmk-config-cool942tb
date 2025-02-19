@@ -72,7 +72,7 @@
 
         default_layer {
             bindings = <
-&kp ESC     &kp Q  &kp W      &kp E     &kp R     &kp T        &kp Y        &kp U  &lt 5 I    &kp O       &kp P      &kp DEL     &kp BSPC
+&kp ESC     &kp Q  &kp W      &kp E     &kp R     &kp T        &kp Y        &kp U  &kp I      &lt 5 O     &kp P      &kp DEL     &kp BSPC
 &kp TAB     &kp A  &kp S      &kp D     &kp F     &kp G        &kp H        &kp J  &kp K      &kp L       &kp MINUS  &kp ENTER
 &kp LSHIFT  &kp Z  &kp X      &kp C     &kp V     &kp B        &kp N        &kp M  &kp COMMA  &kp PERIOD  &kp SLASH  &kp RSHIFT
                    &kp LCTRL  &kp LGUI  &kp LALT  &lt 1 SPACE  &lt 2 SPACE
@@ -108,9 +108,9 @@
 
         MOUSE {
             bindings = <
-&kp ESC     &kp Q  &kp W      &kp E     &kp R     &kp T     &kp Y     &kp U   &lt 5 I    &mkp MB3    &mkp MB2   &kp DEL     &kp BSPC
-&kp TAB     &kp A  &kp S      &kp D     &kp F     &kp G     &kp H     &trans  &mkp MB1   &mkp MB2    &kp MINUS  &kp ENTER
-&kp LSHIFT  &kp Z  &kp X      &kp C     &kp V     &kp B     &kp N     &kp M   &kp COMMA  &kp PERIOD  &kp SLASH  &kp RSHIFT
+&kp ESC     &kp Q  &kp W      &kp E     &kp R     &kp T     &kp Y     &kp U  &lt 5 I    &mkp MB3    &mkp MB2   &kp DEL     &kp BSPC
+&kp TAB     &kp A  &kp S      &kp D     &kp F     &kp G     &kp H     &kp J  &mkp MB1   &lt 5 L     &kp MINUS  &kp ENTER
+&kp LSHIFT  &kp Z  &kp X      &kp C     &kp V     &kp B     &kp N     &kp M  &kp COMMA  &kp PERIOD  &kp SLASH  &kp RSHIFT
                    &kp LCTRL  &kp LGUI  &kp LALT  &mkp MB1  &mkp MB2
             >;
         };
