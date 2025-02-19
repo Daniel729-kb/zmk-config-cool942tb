@@ -16,11 +16,6 @@
     combos {
         compatible = "zmk,combos";
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <9 10>;
-        };
-
         double_quotation {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <23 22>;
@@ -28,12 +23,7 @@
 
         eq {
             bindings = <&kp EQUAL>;
-            key-positions = <11 12>;
-        };
-
-        minu {
-            bindings = <&kp MINUS>;
-            key-positions = <10 11>;
+            key-positions = <11 10>;
         };
 
         atm {
@@ -43,7 +33,7 @@
 
         capsl {
             bindings = <&kp CAPS>;
-            key-positions = <0 13>;
+            key-positions = <14 15>;
         };
     };
 
