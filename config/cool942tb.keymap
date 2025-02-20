@@ -99,10 +99,10 @@
 
         MOUSE {
             bindings = <
-&kp ESC     &kp Q  &kp W      &kp E     &kp R     &kp T        &kp Y        &kp U  &kp I           &msc MOVE_Y(0)  &mkp MB2  &kp DEL     &kp BSPC
-&kp TAB     &kp A  &kp S      &kp D     &kp F     &kp G        &kp H        &kp J  &mkp MB1        &msc MOVE_Y(0)  &mkp MB2  &kp ENTER
-&kp LSHIFT  &kp Z  &kp X      &kp C     &kp V     &kp B        &kp N        &kp M  &msc MOVE_Y(0)  &mkp MB1        &mkp MB2  &kp RSHIFT
-                   &kp LCTRL  &kp LGUI  &kp LALT  &lt 1 SPACE  &lt 2 SPACE
+&kp ESC     &kp Q  &kp W         &kp E     &kp R             &kp T        &kp Y        &kp U  &kp I           &msc MOVE_Y(0)  &mkp MB2  &kp DEL     &kp BSPC
+&kp TAB     &kp A  &kp S         &kp D     &kp F             &kp G        &kp H        &kp J  &mkp MB1        &msc MOVE_Y(0)  &mkp MB2  &kp ENTER
+&kp LSHIFT  &kp Z  &kp X         &kp C     &kp V             &kp B        &kp N        &kp M  &msc MOVE_Y(0)  &mkp MB1        &mkp MB2  &kp RSHIFT
+                   &kp LEFT_ALT  &kp LGUI  &kp LEFT_CONTROL  &lt 1 SPACE  &lt 2 SPACE
             >;
         };
 
